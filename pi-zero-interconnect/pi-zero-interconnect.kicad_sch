@@ -4,6 +4,14 @@
 	(generator_version "10.0")
 	(uuid "b9c49e08-95bc-4e14-9958-e1f9d51e1f46")
 	(paper "A4")
+	(title_block
+		(title "Pi Zero Interconnect")
+		(date "2026-04-24")
+		(rev "${REV}")
+		(company "Montis Corporation")
+		(comment 1 "Author: Matt White")
+		(comment 2 "Reviewer: --")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers

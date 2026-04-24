@@ -1,0 +1,38 @@
+** Drc report for pi-zero-interconnect.kicad_pcb **
+** Created on 2026-04-24T12:00:35 **
+** Report includes: Errors, Warnings **
+
+** Found 5 DRC violations **
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2171 mm)
+    Rule: board setup constraints edge; error
+    @(121.3809 mm, 103.2661 mm): Circle on Edge.Cuts
+    @(121.4120 mm, 103.0732 mm): PTH pad 1 [<no net>] of H2
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2100 mm)
+    Rule: board setup constraints edge; error
+    @(63.3809 mm, 103.2661 mm): Circle on Edge.Cuts
+    @(63.3984 mm, 103.1240 mm): PTH pad 1 [<no net>] of H1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(82.9644 mm, 116.7661 mm): Segment on Edge.Cuts
+    @(127.1710 mm, 108.4228 mm): Segment of J2 on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(82.9644 mm, 116.7661 mm): Segment on Edge.Cuts
+    @(146.5410 mm, 117.5528 mm): Segment of J2 on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.8594 mm, 103.3322 mm): Reference field of J1
+    @(121.4120 mm, 103.0732 mm): Pad 1 [<no net>] of H2 on B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
